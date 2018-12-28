@@ -284,6 +284,7 @@ def generated_test_models():
         "split",
         "sqrt",
         "square",
+        "squared_difference",
         "squeeze",
         "strided_slice",
         "strided_slice_1d_exhaustive",

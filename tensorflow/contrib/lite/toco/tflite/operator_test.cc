@@ -148,6 +148,8 @@ TEST_F(OperatorTest, SimpleOperators) {
                                                 OperatorType::kSquare);
   CheckSimpleOperator<TensorFlowZerosLikeOperator>("ZEROS_LIKE",
                                                    OperatorType::kZerosLike);
+  CheckSimpleOperator<SquaredDifferenceOperator>("SQUARED_DIFFERENCE",
+                                                 OperatorType::kSquaredDifference);
 }
 
 TEST_F(OperatorTest, BuiltinAdd) {
